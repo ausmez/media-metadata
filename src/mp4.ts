@@ -320,7 +320,7 @@ async function parseXYZBox(header: BoxHeader, metadata: RawMetadata, reader: Dat
 
   extra = 0;
   if (matches[6]) {
-    extra = parseFloat(`0${matches[3]}`);
+    extra = parseFloat(`0${matches[6]}`);
   }
 
   degrees = 0;
